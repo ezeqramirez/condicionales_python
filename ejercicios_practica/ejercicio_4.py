@@ -32,3 +32,22 @@ texto_2 = '7'
 # Esta pregunta estará repetida en el Campus para que puedan
 # responder.
 # NOTA: La respuesta no se encuentra en el apunte, sino en Google ;)
+
+if texto_1 > texto_2:
+    print ('el mayor alfabeticamente es ', texto_1)
+else:
+    print ('el mayor alfabeticamente es ', texto_2)
+
+texto_1_a = int(texto_1)
+texto_2_a = int(texto_2)
+
+if texto_1_a > texto_2_a:
+    print ('la variable numerica mayor es ', texto_1_a)
+else:
+    print ('la variable numerica mayor es ', texto_2_a)
+
+# sin buscar en google respondo, creo estar seguro que se depende al orden, como en el diccionario B es mayor que A
+# porque se lee de izquierda a derecha, el 5 esta antes que el 7, entonces el 7 vale mas alfabeticamnte.
+# y de manera numerica el 7 vale mas que el 5
+
+#ezequiel ramirez

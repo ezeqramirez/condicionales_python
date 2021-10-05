@@ -25,7 +25,8 @@ numero_2 = -2
 
 # Verifique la calificación de un estudiante según su
 # puntaje en un examen
-puntaje = 70
+
+puntaje = int(input('Ingrese la nota:\n'))
 
 # Si el puntaje es mayor igual a 90 --> imprimir A
 # Si el puntaje es mayor igual a 80 --> imprimir B
@@ -35,3 +36,28 @@ puntaje = 70
 
 # Debe imprimir en pantalla la calificacion
 # Utilizar "if" anidados
+
+
+if numero_1 > 5:
+    if numero_2 > 0:
+        print ('Resp=1')
+    else:
+        print ('Resp=2')
+else:
+    if numero_2 > 5:
+        print ('Resp=3')
+    else:
+        print ('Resp=4')
+
+if puntaje >= 90:
+    print ('A')
+elif puntaje >= 80:
+    print ('B')
+elif puntaje >= 70:
+    print ('C')
+elif puntaje >= 60:
+    print ('D')
+else:
+    print ('F')
+
+# ezequiel ramirez
