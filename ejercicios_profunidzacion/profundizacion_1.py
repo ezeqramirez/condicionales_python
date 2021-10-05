@@ -22,3 +22,18 @@ si el resultado es positivo, negativo o cero.
 
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
+
+numero_1 = int(input('ingrese el primer numero: \n'))
+numero_2 = int(input('ingrese el segundo numero:\n'))
+
+diferencia = numero_1 - numero_2
+print ('la diferencia es ', diferencia)
+
+if diferencia > 0:
+    print ('la diferencia es positiva')
+elif diferencia < 0:
+    print ('la diferencia es negativa')
+else:
+    print ('la diferencia es de 0')
+
+#ezequiel ramirez
