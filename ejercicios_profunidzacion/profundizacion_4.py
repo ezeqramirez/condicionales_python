@@ -33,3 +33,67 @@ contenido.
 
 print('Ejercicios de práctica con cadenas')
 # Empezar aquí la resolución del ejercicio
+
+palabra_1 = str(input('ingrese su primer palabra:\n'))
+palabra_2 = str(input('ingrese su segunda palabra:\n'))
+palabra_3 = str(input('ingrese su tercer palabra:\n'))
+
+alfabetico = 1 
+cantidad_letras = 2
+
+touch_1 = int(input('ingrese 1 para ordenar alfabeticamente, o 2 por cantidad de letras:\n'))
+
+if alfabetico == touch_1:
+
+    if (palabra_1 > palabra_2):
+        if (palabra_1 > palabra_3):
+            print (palabra_1)
+            if (palabra_2 > palabra_3):
+                print (palabra_2)
+                print (palabra_3)
+            else:
+                print (palabra_3)
+                print (palabra_2)
+        else:
+            print (palabra_3)
+            print (palabra_1)
+            print (palabra_2)
+    elif (palabra_2 > palabra_3):
+        print (palabra_2)
+        if (palabra_1 > palabra_3):
+            print (palabra_1)
+            print (palabra_3)
+        else:
+            print (palabra_3)
+            print (palabra_1)
+    else:
+        print (palabra_3)
+        print (palabra_2)
+        print (palabra_1)
+        
+if cantidad_letras == touch_1:
+    if (len(palabra_1) > len(palabra_2)):
+        if (len(palabra_1) > len(palabra_3)):
+            print (palabra_1)
+            if (len(palabra_2) > len(palabra_3)):
+                print (palabra_2)
+                print (palabra_3)
+            else:
+                print (palabra_3)
+                print (palabra_2)
+        else:
+            print (palabra_3)
+            print (palabra_1)
+            print (palabra_2)
+    elif (len(palabra_2) > len(palabra_3)):
+        print (palabra_2)
+        if (len(palabra_1) > len(palabra_3)):
+            print (palabra_1)
+            print (palabra_3)
+        else:
+            print (palabra_3)
+            print (palabra_1)
+    else:
+        print (palabra_3)
+        print (palabra_2)
+        print (palabra_1)
